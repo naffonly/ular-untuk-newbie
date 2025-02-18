@@ -25,3 +25,15 @@ y = str(12.5)
 print(type(x))
 print(x)
 print(type(y))
+
+# BMI Calculator
+berat = float(input("Masukkan berat anda dalam kg: "))
+tinggi = float(input("Masukkan tinggi anda dalam m: "))
+
+bmi = (berat/(tinggi ** 2))
+print("BMI Anda =",bmi)
+
+#output
+# Masukkan berat anda dalam kg: 70
+# Masukkan tinggi anda dalam m: 1.75
+# BMI Anda = 22.857142857142858
